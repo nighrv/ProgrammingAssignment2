@@ -63,7 +63,7 @@ cacheSolve <- function(x, ...) {
         
 }
 
-## Testing 
+## Testing without these functions
 # > mymat = matrix(c(1,0,-1,2),nrow=2)
 # > mymat
 #       [,1] [,2]
@@ -78,7 +78,8 @@ cacheSolve <- function(x, ...) {
 # [1,]    1   -1
 # [2,]    0    2
 #
-# Using the new functions
+#
+# Testing using the new functions
 # > z = makeCacheMatrix(mymat)
 # > cacheSolve(z)
 #      [,1] [,2]
